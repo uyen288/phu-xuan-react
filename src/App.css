@@ -192,6 +192,6 @@
   padding: 20px 0;
 }
 
-.menu-list li {
+ul.menu-list li {
   text-decoration: none;
 }
