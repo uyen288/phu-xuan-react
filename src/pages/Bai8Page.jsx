@@ -1,10 +1,10 @@
-import FormThemDiaDiem from '../features/dia-diem/FormThemDiaDiem'
+import TrangThemDiaDiem from './TrangThemDiaDiem'
 
 export default function Bai8Page() {
   return (
     <main className="trang-Bai8">
       <h1>Bài 8</h1>
-      <FormThemDiaDiem />
+      <TrangThemDiaDiem />
     </main>
   )
 }

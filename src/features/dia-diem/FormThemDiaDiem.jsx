@@ -42,6 +42,7 @@ export default function FormThemDiaDiem({
           onChange={xuLyThayDoi}
           onBlur={xuLyRoiO}
         />
+
         {loiCuaO('ten') && (
           <p role="alert" className="thong-bao-loi">
             {loiCuaO('ten')}
@@ -59,6 +60,7 @@ export default function FormThemDiaDiem({
           onChange={xuLyThayDoi}
           onBlur={xuLyRoiO}
         />
+
         {loiCuaO('moTa') && (
           <p role="alert" className="thong-bao-loi">
             {loiCuaO('moTa')}
@@ -77,6 +79,7 @@ export default function FormThemDiaDiem({
           onBlur={xuLyRoiO}
           placeholder="0"
         />
+
         {loiCuaO('giaVe') && (
           <p role="alert" className="thong-bao-loi">
             {loiCuaO('giaVe')}
@@ -86,6 +89,7 @@ export default function FormThemDiaDiem({
 
       <div className="truong">
         <label htmlFor="phuong">Phường / xã</label>
+
         <select
           id="phuong"
           name="phuong"
