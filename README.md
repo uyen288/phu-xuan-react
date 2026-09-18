@@ -19,3 +19,5 @@ Mở trình duyệt tại http://localhost:5173
 - React 19 + TypeScript
 - Vite
 - ESLint + Prettier
+
+![alt text](image.png)
