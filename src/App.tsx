@@ -1,7 +1,7 @@
-import Bai7Page from './pages/Bai7Page'
+import Bai8Page from './pages/Bai8Page'
 
 function App() {
-  return <Bai7Page />
+  return <Bai8Page />
 }
 
 export default App
