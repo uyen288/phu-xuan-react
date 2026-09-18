@@ -195,3 +195,14 @@
 ul.menu-list li {
   text-decoration: none;
 }
+
+.trang {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.luoi-dia-danh {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
