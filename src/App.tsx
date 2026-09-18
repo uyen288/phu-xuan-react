@@ -1,8 +1,7 @@
-import TrangDanhMuc from './pages/TrangDanhMuc'
-import './App.css'
+import Bai8Page from './pages/Bai8Page'
 
 function App() {
-  return <TrangDanhMuc />
+  return <Bai8Page />
 }
 
 export default App
