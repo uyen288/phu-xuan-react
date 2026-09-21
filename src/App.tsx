@@ -1,8 +1,12 @@
-import TrangDanhMuc from './pages/TrangDanhMuc'
 import './App.css'
+import { TourListPage } from './pages/TourListPage'
 
 function App() {
-  return <TrangDanhMuc />
+  return (
+    <div>
+      <TourListPage />
+    </div>
+  )
 }
 
 export default App
