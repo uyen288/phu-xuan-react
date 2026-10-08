@@ -10,9 +10,8 @@ export function DiTichCard({ diTich, onToggleThamQuan }: DiTichCardProps) {
     >
       <h3>{diTich.ten}</h3>
       <p className="ditich-card__meta">
-        {diTich.loai.replace(/-/g, ' ')} — thế kỷ {diTich.theKy}
+        {diTich.loai.replace(/-/g, ' ')} — thế kỷ {diTich.theKyXayDung}
       </p>
-      <p className="ditich-card__desc">{diTich.moTa}</p>
       <button type="button" onClick={() => onToggleThamQuan(diTich.id)}>
         {diTich.daThamQuan ? 'Bỏ đánh dấu' : 'Đã tham quan'}
       </button>
